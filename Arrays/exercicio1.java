@@ -7,7 +7,7 @@ public class exercicio1 {
         Scanner scan = new Scanner(System.in);
 
 
-        int[] vetorA = new int[5];
+        /*int[] vetorA = new int[5];
         int[] vetorB = new int[vetorA.length];
 
         for (int i=0; i<vetorA.length; i++ ) {
@@ -26,7 +26,13 @@ public class exercicio1 {
         System.out.print("Vetor B= ");
         for (int i=0; i<vetorA.length; i++) {
             System.out.print(vetorB[i] + " ");
-        }
+        }*/
+
+        int i = 3;
+
+        int x = 10 - 5 * 2 + --i;
+
+        System.out.println(x);
 
     }
 }
